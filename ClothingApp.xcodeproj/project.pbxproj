@@ -13,6 +13,8 @@
 		1F77A28920F4550D002525ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F77A28820F4550D002525ED /* Assets.xcassets */; };
 		1F77A28C20F4550D002525ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F77A28A20F4550D002525ED /* LaunchScreen.storyboard */; };
 		1F77A29720F45E60002525ED /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77A29620F45E60002525ED /* CategoryCell.swift */; };
+		1F77A29920F46338002525ED /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77A29820F46338002525ED /* Category.swift */; };
+		1F77A29C20F46501002525ED /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77A29B20F46501002525ED /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1F77A28B20F4550D002525ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F77A28D20F4550D002525ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F77A29620F45E60002525ED /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		1F77A29820F46338002525ED /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		1F77A29B20F46501002525ED /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		1F77A28020F4550C002525ED /* ClothingApp */ = {
 			isa = PBXGroup;
 			children = (
+				1F77A29A20F464EE002525ED /* Services */,
 				1F77A29320F45DB3002525ED /* Model */,
 				1F77A29420F45DBC002525ED /* View */,
 				1F77A29520F45DC3002525ED /* Controller */,
@@ -71,6 +76,7 @@
 		1F77A29320F45DB3002525ED /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1F77A29820F46338002525ED /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				1F77A28320F4550C002525ED /* CategoriesVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		1F77A29A20F464EE002525ED /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1F77A29B20F46501002525ED /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				1F77A28420F4550C002525ED /* CategoriesVC.swift in Sources */,
 				1F77A28220F4550C002525ED /* AppDelegate.swift in Sources */,
 				1F77A29720F45E60002525ED /* CategoryCell.swift in Sources */,
+				1F77A29920F46338002525ED /* Category.swift in Sources */,
+				1F77A29C20F46501002525ED /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
