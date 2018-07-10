@@ -24,22 +24,22 @@
                                 <color key="textColor" red="0.32350614570000003" green="0.32194331399999998" blue="0.32506897730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dZa-3p-P6r">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="140" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dZa-3p-P6r">
                                 <rect key="frame" x="0.0" y="76" width="375" height="527"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="140" id="G15-Y6-rUp" customClass="CategoryCell" customModule="ClothingApp" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="140" id="G15-Y6-rUp" customClass="CategoryCell" customModule="ClothingApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="140"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="G15-Y6-rUp" id="xxm-CS-vxy">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="139.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shirts" translatesAutoresizingMaskIntoConstraints="NO" id="eMe-1B-xyZ">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="139.5"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shirts" translatesAutoresizingMaskIntoConstraints="NO" id="eMe-1B-xyZ">
+                                                    <rect key="frame" x="0.0" y="3" width="375" height="134"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHIRTS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4d-0m-30A">
-                                                    <rect key="frame" x="103" y="56.5" width="168" height="25"/>
+                                                    <rect key="frame" x="103" y="57.5" width="168" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="168" id="fVK-UK-LmH"/>
                                                         <constraint firstAttribute="height" constant="25" id="k4V-08-SSX"/>
@@ -49,13 +49,14 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="o4d-0m-30A" firstAttribute="centerY" secondItem="xxm-CS-vxy" secondAttribute="centerY" id="2bK-SS-Ma7"/>
                                                 <constraint firstAttribute="trailing" secondItem="eMe-1B-xyZ" secondAttribute="trailing" id="I83-lx-2WO"/>
                                                 <constraint firstItem="o4d-0m-30A" firstAttribute="centerX" secondItem="xxm-CS-vxy" secondAttribute="centerX" id="QYj-TV-CYX"/>
                                                 <constraint firstItem="eMe-1B-xyZ" firstAttribute="leading" secondItem="xxm-CS-vxy" secondAttribute="leading" id="mhz-uq-vjU"/>
-                                                <constraint firstItem="eMe-1B-xyZ" firstAttribute="top" secondItem="xxm-CS-vxy" secondAttribute="top" id="oZY-m6-0eS"/>
-                                                <constraint firstAttribute="bottom" secondItem="eMe-1B-xyZ" secondAttribute="bottom" id="rom-uh-C9Q"/>
+                                                <constraint firstItem="eMe-1B-xyZ" firstAttribute="top" secondItem="xxm-CS-vxy" secondAttribute="top" constant="3" id="oZY-m6-0eS"/>
+                                                <constraint firstAttribute="bottom" secondItem="eMe-1B-xyZ" secondAttribute="bottom" constant="3" id="rom-uh-C9Q"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
