@@ -17,6 +17,7 @@
 		1F77A29920F46338002525ED /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77A29820F46338002525ED /* Category.swift */; };
 		1F77A29C20F46501002525ED /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77A29B20F46501002525ED /* DataService.swift */; };
 		1FAAA57A20F5B1AA0050A592 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAA57920F5B1AA0050A592 /* Product.swift */; };
+		1FAAA57C20F5B6200050A592 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAA57B20F5B6200050A592 /* ProductVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1F77A29820F46338002525ED /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		1F77A29B20F46501002525ED /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		1FAAA57920F5B1AA0050A592 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		1FAAA57B20F5B6200050A592 /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				1F77A28320F4550C002525ED /* CategoriesVC.swift */,
+				1FAAA57B20F5B6200050A592 /* ProductVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				1F77A28220F4550C002525ED /* AppDelegate.swift in Sources */,
 				1F77A29720F45E60002525ED /* CategoryCell.swift in Sources */,
 				1F6F07D620F5A71800627E29 /* ProductCell.swift in Sources */,
+				1FAAA57C20F5B6200050A592 /* ProductVC.swift in Sources */,
 				1F77A29920F46338002525ED /* Category.swift in Sources */,
 				1F77A29C20F46501002525ED /* DataService.swift in Sources */,
 				1FAAA57A20F5B1AA0050A592 /* Product.swift in Sources */,
